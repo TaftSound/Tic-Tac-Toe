@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5CE6ECD12829E8EE007D00EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CE6ECD02829E8EE007D00EE /* main.cpp */; };
+		5CE6ECD12829E8EE007D00EE /* ttt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CE6ECD02829E8EE007D00EE /* ttt.cpp */; };
 		5CE6ECD92829EDAC007D00EE /* ttt_fd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CE6ECD82829EDAC007D00EE /* ttt_fd.cpp */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +25,7 @@
 
 /* Begin PBXFileReference section */
 		5CE6ECCD2829E8EE007D00EE /* Tic Tac Toe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Tic Tac Toe"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CE6ECD02829E8EE007D00EE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5CE6ECD02829E8EE007D00EE /* ttt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ttt.cpp; sourceTree = "<group>"; };
 		5CE6ECD72829EB2A007D00EE /* ttt_functions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ttt_functions.h; sourceTree = "<group>"; };
 		5CE6ECD82829EDAC007D00EE /* ttt_fd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ttt_fd.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,7 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				5CE6ECD72829EB2A007D00EE /* ttt_functions.h */,
-				5CE6ECD02829E8EE007D00EE /* main.cpp */,
+				5CE6ECD02829E8EE007D00EE /* ttt.cpp */,
 				5CE6ECD82829EDAC007D00EE /* ttt_fd.cpp */,
 			);
 			path = "Tic Tac Toe";
@@ -125,7 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CE6ECD92829EDAC007D00EE /* ttt_fd.cpp in Sources */,
-				5CE6ECD12829E8EE007D00EE /* main.cpp in Sources */,
+				5CE6ECD12829E8EE007D00EE /* ttt.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
