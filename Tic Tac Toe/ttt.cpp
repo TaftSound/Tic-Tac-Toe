@@ -117,10 +117,10 @@ first_try = 0;
             else if (row_answer == 3) {
                 row3[column_answer - 1] = 'O';
             }
-    print_board(row1, row2, row3);
 //checks for win
         if (round_number > 2) {
             if (check_win(row1, row2, row3, 'O') == true) {
+            print_board(row1, row2, row3);
             std::cout << "\n";
             player_win('2');
             return 0;
