@@ -1,15 +1,9 @@
 //
-//  main.cpp
+//  ttt.cpp
 //  Tic Tac Toe
 //
 //  Created by Matthew Murphy on 5/9/22.
 //
-
-//int main(int argc, const char * argv[]) {
-    // insert code here...
-//    std::cout << "Hello, World!\n";
-//    return 0;
-//}
 
 #include <iostream>
 #include <vector>
